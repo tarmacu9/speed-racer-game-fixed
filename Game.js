@@ -42,7 +42,7 @@ class Game {
     this.handleElements();
     Player.getPlayersInfo();
     if(allPlayers !== undefined){
-      Image(track,0,-height*5,width,height*6);
+      image(track,0,-height*5,width,height*6);
       drawSprite();
     }
   }
